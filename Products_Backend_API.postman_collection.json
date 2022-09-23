@@ -95,7 +95,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Peas\",\r\n    \"description\": \"Vegetable\",\r\n    \"price\": 1.01,\r\n    \"inventory_quantity\": 256}",
+					"raw": "{\r\n    \"title\": \"Cucumber\",\r\n        \"description\": \"Vegetable\",\r\n        \"price\": 0.89,\r\n        \"inventory_quantity\": 222,\r\n        \"image_link\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cucumber_BNC.jpg/1280px-Cucumber_BNC.jpg\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/5/",
+					"raw": "http://127.0.0.1:8000/api/products/7/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -115,7 +115,7 @@
 					"path": [
 						"api",
 						"products",
-						"5",
+						"7",
 						""
 					]
 				}
