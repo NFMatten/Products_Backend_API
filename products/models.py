@@ -7,3 +7,4 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     inventory_quantity = models.IntegerField()
     image_link = models.CharField(max_length=255)
+    
